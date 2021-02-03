@@ -5,4 +5,5 @@ Very basic shell script that opens google classroom/any homework site at a speci
 
 Dependencies:
 >  _at_ package installed on system (default on most linux distrobutions). Can be installed with "sudo apt install at".
+>  at daemon enabled at boot for automatic execution. can be done with "sudo systemctl enable --now atd"
 
